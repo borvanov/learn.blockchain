@@ -61,6 +61,8 @@ MNEMONIC is a secret phrase that MetaMask give you once you create new account. 
 
 INFURA_NODE_HTTP_ADDRESS is an http URL to node in Ethereum system where we want to deploy the contract.
 
+To deploy to INFURA node you also need to specify a chain ID. This is something you can obtain using _getChainId_ method from _web3_ library.
+
 Run the command:
 `truffle deploy --network production`
 
